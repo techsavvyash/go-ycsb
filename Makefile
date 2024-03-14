@@ -17,9 +17,9 @@ endif
 
 ifndef CROSS_COMPILE
 
-ifeq ($(SQLITE_CHECK), 0)
-	TAGS += libsqlite3
-endif
+# ifeq ($(SQLITE_CHECK), 0)
+# 	TAGS += libsqlite3
+# endif
 
 ifeq ($(ROCKSDB_CHECK), 0)
 	TAGS += rocksdb
